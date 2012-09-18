@@ -4,7 +4,7 @@ Here’s how I built a simple [Nexmo](http://nexmo.com) powered application that
 ### Examples 
 *(because who wants to read a whole readme)*
 
-* Send ‘now’ to 1-225-341-5724, to get what’s going on currently at php|tek.
+* Send ‘now’ to get what’s going on currently at php|tek.
 * Send ‘tomorrow 11am’, and get a list of talks.
 * Send ‘1’, to get details on the first talk (send 1 again to continue the details).
 

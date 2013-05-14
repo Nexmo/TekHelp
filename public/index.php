@@ -19,7 +19,11 @@ session_id(md5($_REQUEST['msisdn']));
 session_start();
 
 $help = new Help(NEXMO_KEY, NEXMO_SECRET, NEXMO_FROM, $schedule, $_SESSION);
-$help->process($_REQUEST['msisdn'], $_REQUEST['text']);
+try{
+    $help->process($_REQUEST['msisdn'], $_REQUEST['text']);
+} catch (Exception $e) {
+    error_log($e->getMessage());
+}
 
 //update session
 $_SESSION = $help->getSession();

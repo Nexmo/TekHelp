@@ -3,77 +3,63 @@ date_default_timezone_set('America/Chicago');
 require_once dirname(__FILE__) . '/../library/phpQuery.php';
 
 //utility function
-function getTime($row, $date){
-    $time = phpQuery::pq('td:first', $row)->html();
-    //filter any time ranges
-    if(($pos = strpos($time, '–')) !== false){
-        $time = substr($time, 0, $pos);
-    }
-    
-    //get the time parts
-    list($hour, $minute) = explode(':', $time);
-    $date->setTime((int)$hour, (int)$minute);
+function killSpace($data){
+    return trim(preg_replace('#\s+#mi', ' ', $data));
 }
 
 
-$docSchedule = phpQuery::newDocumentFileHTML('http://tek12.phparch.com/schedule/');
-$docTalks = phpQuery::newDocumentFileHTML('http://tek12.phparch.com/talks/');
+$doc = phpQuery::newDocumentFileHTML('http://tek.phparch.com/schedule/');
 
 //init some vars
 $title = null;
 $date = new DateTime();
 $schedule = array();
 //loop through schedule rows
-/* @var $row DOMElement */
-foreach(phpQuery::pq('#schedule tr', $docSchedule) as $row){
-    switch(strtolower($row->getAttribute('class'))){
-        case 'mainheader':
-            list($title, $date) = explode('–', phpQuery::pq('td', $row)->html());
-            $title = trim($title);
-            $date = new DateTime($date);
-            break;
-        case 'title':
-        case 'break':
-        case 'lunch':
-            getTime($row, $date);
-            $schedule[$date->format('U')] = array(
-                'title' => phpQuery::pq('td:last', $row)->html(),
-                'day' => $title,
-                'time' => clone $date,
-                'type' => 'common'
+foreach(pq('table.day tbody tr') as $row){
+    $day = pq($row)->parents('table')->children('caption')->text();
+    $day = explode(':', $day);
+    
+    //get the time
+    $time = pq($row)->children('th')->text();
+    $time = explode('-', $time);
+    
+    //odd case
+    if(trim($time[0]) == 'noon'){
+        $time[0] = '12:00p';
+    }
+    
+    $time = new DateTime($day[1] . ' ' . trim($time[0]) . 'm', new DateTimeZone('America/Chicago'));
+    
+    //single event type
+    if(pq($row)->children('td')->length == 1){
+        $schedule[$time->getTimestamp()] = array(
+            'title' => killSpace(pq($row)->children('td')->text()),
+            'time' => clone $time,
+            'type' => 'common',
+            'day' => $day[0]
+        );
+        
+        continue;
+    //multiple sessions
+    } else {
+        $talks = array();
+        foreach(pq($row)->find('td .t_talk') as $talk){
+            //TODO: could use this to grab talk description
+            $id = $talk->getAttributeNode('data-talk')->nodeValue;
+            $details = phpQuery::newDocumentFileHTML('http://tek.phparch.com/wp-admin/admin-ajax.php?action=talk&id=' . $id);
+            $talks[] = array(
+                'speaker' => killSpace(pq($talk)->find('.t_speaker')->text()),
+                'title' => killSpace(pq($talk)->find('.t_title')->text()),
+                'description' => killSpace($details->find('#p_talk p')->text())
             );
-            break;
-        case 'talks':
-            getTime($row, $date);
-            $talks = array();
-            foreach(phpQuery::pq('td.talk p', $row) as $talk){
-                $link = phpQuery::pq('a.talk', $talk)->attr('href');
-                $link = substr($link, strpos($link, '#') + 1);
-                $description = phpQuery::pq("[name={$link}]")->parents('div:first')->find('div.talk')->text();
+        }
 
-                $talks[] = array(
-                	'speaker' => phpQuery::pq('span.speaker', $talk)->text(),
-                    'title' => phpQuery::pq('a.talk', $talk)->text(),
-                    'description' => $description
-                );
-            }
-
-            if(!empty($talks)){
-                $schedule[$date->format('U')] = array(
-                    'talks' => $talks,
-                    'day' => $title,
-                    'time' => clone $date,
-                    'type' => 'talks'
-                );
-            } else {
-                $schedule[$date->format('U')] = array(
-                    'keynote' => phpQuery::pq('td.keynote', $row)->text(),
-                    'day' => $title,
-                    'time' => clone $date,
-                    'type' => 'keynote'
-                );
-            }
-            break;
+        $schedule[$time->getTimestamp()] = array(
+            'talks' => $talks,
+            'time' => clone $time,
+            'type' => 'talks',
+            'day' => $day[0]
+        );
     }
 }
 

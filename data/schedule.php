@@ -1,651 +1,748 @@
 <?php 
 return array (
-  1337691600 => 
+  1368482400 => 
   array (
-    'title' => 'Registration opens',
-    'day' => 'Tutorial Day',
+    'title' => 'Early Registration Open',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-22 08:00:00',
+       'date' => '2013-05-13 17:00:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Day 0',
   ),
-  1337693400 => 
+  1368535500 => 
   array (
-    'title' => 'Coffee appears',
-    'day' => 'Tutorial Day',
+    'title' => 'Registration Opens',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-22 08:30:00',
+       'date' => '2013-05-14 07:45:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Tutorial Day',
   ),
-  1337695200 => 
+  1368536400 => 
+  array (
+    'title' => 'Breakfast Served',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-14 08:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Tutorial Day',
+  ),
+  1368540000 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Ryan Weaver',
-        'title' => 'Creating a High Quality App Using PHP Components from Around Our World',
-        'description' => 'Whether you like flat php, Symfony, Drupal, Zend Framework or anything in between, we’re all solving the same fundamental problems. In this workshop, we’ll explore just how small the world is by building a “flat” PHP application, identifying these problems, and solving them piece by piece. We’ll learn what a “framework” really is as we create our own using components from Symfony, Zend Framework, and Lithium. When you leave, you’ll understand how to use a PSR-0 autoloader to bring new libraries into your app, how a dependency injection container can help you, and what’s really going on under the surface of the popular frameworks and CMS libraries.',
+        'speaker' => 'Rob Allen',
+        'title' => 'Zend Framework 2 Tutorial',
+        'description' => 'This tutorial will cover building a complete ZF2 MVC application. We\'ll talk through the foundations of the framework and then move onto the MVC system. Specifically, I\'ll ensure that you understand how ZF2\'s service manager, module manager and event manger are used with the MVC system to create a ZF2 application. We\'ll look at how ZF2 controllers interact with views, forms and the model layer and how the module system enables easy re-use of complete subsystems between projects. Grab your laptop and come learn all about the new Zend Framework!',
       ),
       1 => 
       array (
-        'speaker' => 'Laura Beth Denker',
-        'title' => 'Developer Testing 201, When to Mock and When to Integrate',
-        'description' => 'Now that you know the basics of unit testing, you are ready to dive into advanced mock framework techniques and learn about integration testing.  Some topics included are constraints (Hamcrest), mock frameworks, external and hostile dependencies, and DBUnit.  This tutorial should teaching you integration testing techniques and better use of mock framework. You should leave this session knowing when write an integration test and when mocks are sufficient.  Example code uses the PHPUnit framework.  This course is a continuation of Developer Testing 101.',
+        'speaker' => 'Andreas Hucks',
+        'title' => 'Overview of Symfony2 for Beginners',
+        'description' => 'Get a hands-on walkthrough of basic Symfony 2 use. We cover everything needed to get you going: Setting up a project, defining your routing, creating controllers, and basic use of the Twig templating system. The workshop alternates between short theory parts and live examples for attendees to code along.',
       ),
       2 => 
       array (
-        'speaker' => 'Jake Smith & Daniel Cousineau',
-        'title' => 'HTML5 and JavaScript for the PHP Developer',
-        'description' => 'With the rise of advanced desktop and mobile browsers, high performance javascript engines, and ever increasing networking bandwidth, traditionally ‘frontend’ skills are in more demand than ever. PHP developers are increasingly finding themselves needing these skills more and more to remain competitive.  This workshop will cover new features introduced in HTML5 and CSS3, how to use them today with modern browsers (and fallbacks), as well as tips and tricks to save time and do amazing things. It will also cover a refresher on JavaScript basics and dive into recent advances in libraries and coding techniques that power modern interactive web applications. The workshop will walk through from start to finish a simple web application utilizing as many HTML5, CSS3, and JavaScript techniques as possible. By the end the attendees can expect to have a grasp on things ranging from new tags, new style properties, advanced selectors, event-driven asynchronous JavaScript programming, new services such as GeoLocation, and much more.',
+        'speaker' => 'Sara Golemon',
+        'title' => 'PHP Extension Writing',
+        'description' => 'PHP extensions provide the glue between the PHP language and C/C++ libraries. This tutorial will provide a detailed and somewhat intense introduction to writing custom extensions. Attendees should ideally know C/C++ already. Time permitting, HipHop extensions may be covered as well.',
       ),
     ),
-    'day' => 'Tutorial Day',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-22 09:00:00',
+       'date' => '2013-05-14 09:00:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
-  ),
-  1337706000 => 
-  array (
-    'title' => 'Lunch',
     'day' => 'Tutorial Day',
+  ),
+  1368550800 => 
+  array (
+    'title' => 'Lunch Served',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-22 12:00:00',
+       'date' => '2013-05-14 12:00:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Tutorial Day',
   ),
-  1337709600 => 
+  1368554400 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Rob Richards',
-        'title' => 'API Development',
-        'description' => 'APIs are pretty much a necessity for organizations in this day and time, although many have a difficult time trying to figure out how to get started. It is not as simple as standing up and endpoint and exposing data as one must be cognizant of both the consumer and the delivery mechanisms in order to make an API successful. In this tutorial, I will briefly go through some of the whys of having an API and what one would want to be exposing before we go into depth on creating and exposing these APIs. Using real world scenarios we will explore creating APIs with different data formats, ways to expose them as well as how to deal with debugging when things go wrong. In addition to the creation, understanding and being able to write consumers is also a critical skill when developing APIs. We will cover this not only as part of debugging, but also when working on and discussing different consumer types such as mobile applications.',
+        'speaker' => 'Wim Godden',
+        'title' => 'Caching and Tuning Fun for High Scalability',
+        'description' => 'Caching has been a \'hot\' topic for a few years. But caching takes more than merely taking data and putting it in a cache : the right caching techniques can improve performance and reduce load significantly. But we\'ll also look at some major pitfalls, showing that caching the wrong way can bring down your site. If you\'re looking for a clear explanation about various caching techniques and tools like Memcached, Nginx and Varnish, as well as ways to deploy them in an efficient way, this talk is for you.',
       ),
       1 => 
       array (
-        'speaker' => 'Michelangelo van Dam',
-        'title' => 'Workshop QA on Zend Framework Applications',
-        'description' => 'This workshop is a hands-on training where a real Zend Framework application is used as an example to start improving QA using tools to test, document and perform software metric calculations to indicate where the software can be improved. I also explain the reports produced by a CI system.',
+        'speaker' => 'Harrie Verveer',
+        'title' => 'A Hands-on Introduction to Writing Unit Tests Using PHPUnit',
+        'description' => 'A lot of people will tell you that unit-testing is easy, but in practice it\'s one of the hardest disciplines to get right. When you\'ve never written unit tests before you\'ll probably have a million questions really fast; your code has got a lot of dependencies, runs queries on your database and sends out e-mails, and there seems to be no way to write reliable tests for this code that you can actually use time after time. No worries! Harrie is here to help :-)  This tutorial is a hands-on introduction to writing unit tests using PHPUnit. We\'ll be writing some actual unit tests for (sometimes problematic) pieces of code that you could come across while testing real-life applications. I\'ll explain how you could apply TDD and how to use it into your advantage, and I\'ll come with some suggestions on how you could convince your boss that unit testing is important and actually worth the effort on the long run.',
       ),
       2 => 
       array (
-        'speaker' => 'Jake Smith & Daniel Cousineau',
-        'title' => 'HTML5 and JavaScript for the PHP Developer',
-        'description' => 'With the rise of advanced desktop and mobile browsers, high performance javascript engines, and ever increasing networking bandwidth, traditionally ‘frontend’ skills are in more demand than ever. PHP developers are increasingly finding themselves needing these skills more and more to remain competitive.  This workshop will cover new features introduced in HTML5 and CSS3, how to use them today with modern browsers (and fallbacks), as well as tips and tricks to save time and do amazing things. It will also cover a refresher on JavaScript basics and dive into recent advances in libraries and coding techniques that power modern interactive web applications. The workshop will walk through from start to finish a simple web application utilizing as many HTML5, CSS3, and JavaScript techniques as possible. By the end the attendees can expect to have a grasp on things ranging from new tags, new style properties, advanced selectors, event-driven asynchronous JavaScript programming, new services such as GeoLocation, and much more.',
+        'speaker' => 'Emma Jane Hogbin',
+        'title' => 'Git Makes Me Angry Inside',
+        'description' => 'Does Git make you angry inside? In this workshop you will get a gentle introduction to working efficiently as a Web developer in small teams, or as a solo developer. We\'ll focus on real world examples you can actually use to make your work faster and more efficient. Windows? OSX? Linux? No problem, we\'ll get you up and running with Git, no matter what your system.  Yes, this is an introductory session. This is for people who feel shame that they don\'t know how to "clone my github project", wish they too could "get the gist", and get mad when people say "just diff me a patch" as if it\'s something as easy as making a mai thai even though you have no rum. No, you don\'t have to have git installed to attend. You don\'t even need to know where the command line is on your computer.',
       ),
     ),
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-14 13:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'talks',
     'day' => 'Tutorial Day',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-22 13:00:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'talks',
   ),
-  1337778000 => 
+  1368565200 => 
   array (
-    'title' => 'Registration opens',
-    'day' => 'Day 1',
+    'title' => 'Birds of a Feather',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 08:00:00',
+       'date' => '2013-05-14 16:00:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Tutorial Day',
   ),
-  1337779800 => 
+  1368621900 => 
   array (
-    'title' => 'Coffee appears',
-    'day' => 'Day 1',
+    'title' => 'Registration Opens',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 08:30:00',
+       'date' => '2013-05-15 07:45:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Conference Day 1',
   ),
-  1337781600 => 
+  1368622800 => 
   array (
-    'keynote' => 'Opening Keynote',
-    'day' => 'Day 1',
+    'title' => 'Breakfast Served',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 09:00:00',
+       'date' => '2013-05-15 08:00:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
-    'type' => 'keynote',
+    'type' => 'common',
+    'day' => 'Conference Day 1',
   ),
-  1337786100 => 
+  1368626400 => 
+  array (
+    'title' => 'Keynote: Practicing Failure
+Harper Reed && Dylan Richard',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-15 09:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Conference Day 1',
+  ),
+  1368630900 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Brian Moon',
-        'title' => 'Easing into HTML5 and CSS3',
-        'description' => 'HTML5 and CSS3 offer some great features that everyone is clamoring to use. However, not everyone can simply rip apart their site and redo all of their markup and styling across the board. There are some quick wins, especially with CSS3, to be had that you can integrate into your site without rewriting your whole entire site.',
+        'speaker' => 'Davey Shafik',
+        'title' => 'PHP 5.5: The New Bits',
+        'description' => 'PHP 5.5 is about to be unleashed into the world; bringing some great new features including generators and coroutines, a finally construct, simple password hashing and other small changes.  This talk is aimed at developers who use PHP every day and are looking to start new projects with the latest and greatest, or want to future-proof legacy code.',
       ),
       1 => 
       array (
-        'speaker' => 'Eli White',
-        'title' => 'Amazon SimpleDB',
-        'description' => 'Interested in NoSQL (non-relational database) technologies?  Want an introduction to one that is simple to use, immediately available, and easily scalable?  Then SimpleDB may be for you.  Come learn how to use Amazon SDB and what features it can provide to help solve some of your software development concerns.',
+        'speaker' => 'Rob Allen',
+        'title' => 'Debugging for Beginners',
+        'description' => 'Writing code that works is a handy skill to have, however sometimes the code doesn\'t work and you have to work out why. This session will look at how to do this. This session looks at the fundamentals of debugging in PHP and then introduces you to some useful techniques and tools to help you fix your code.   Fixing an error is impossible if you don\'t know what the problem is, so we start by ensuring that our PHP environment is set up to provide all the information we need. We will look at the different types of PHP errors and start with simple use of var_dump() to find and fix problems. Finally, we see how the Xdebug extension can help its better reporting and step-by-step debugging features.',
       ),
       2 => 
       array (
-        'speaker' => 'Edward Finkler',
-        'title' => 'The MicroPHP Manifesto',
-        'description' => 'In the past few years, the PHP Zeitgeist seems like it’s been moving in the Neil Peart direction. Lots of work by lots of smart people is going into complex, verbose solutions. Lots of files, lots of nested directories, and lots of rules.  No thanks.  So I wrote the MicroPHP Manifesto:  1. I am a PHP developer 2. I like building small things 3. I want less code, not more 4. I like simple, readable code  Contrary to popular belief, you can still kick ass with PHP using simple, readable code that avoids over-engineering and excessive abstraction. We’ll talk about how to make that happen with lightweight “micro-frameworks” and single-task, no-dependency libraries.',
+        'speaker' => 'Pablo Godel',
+        'title' => 'Building Web Apps from a New Angle',
+        'description' => 'AngularJS is a new JavaScript framework, backed by Google, for building powerful, complex and rich client-side web applications. We will go over the features and basics of building a web application with AngularJS and we will demonstrate how to communicate with a REST server built with PHP.',
+      ),
+      3 => 
+      array (
+        'speaker' => 'Emma Jane Hogbin',
+        'title' => 'Beyond the Bikeshed',
+        'description' => 'The bigger the company, the more likely you are to get dragged into meetings that waste your time, waste your talent, and waste your company\'s money. Sure, it\'s great to be included in the process, but wouldn\'t it be even nicer if the process didn\'t waste your time? In this session Emma Jane Hogbin show you five simple tips to make your time in meetings more efficient. Want to dig deeper? She\'ll explain why these five tips work and show you how to make more of your interactions with (difficult) people more efficient and enjoyable.',
       ),
     ),
-    'day' => 'Day 1',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 10:15:00',
+       'date' => '2013-05-15 10:15:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
+    'day' => 'Conference Day 1',
   ),
-  1337790600 => 
+  1368635400 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Justin Carmony',
-        'title' => 'Blazing Data with Redis',
-        'description' => 'There are many fast data stores, and then there is Redis. Learn about this excellent NoSQL solution that is a powerful in-memory key-value store. Learn how to solve traditionally difficult problems with Redis, and how you can benefit from 100,000 reads/writes a second on commodity hardware. We’ll discuss how and when to use the different datatypes and commands to fit your needs. We’ll discuss the different PHP libraries with their pros and cons. We’ll then show some live examples on how to use it for a chatroom, and how Redis manages a billion data points for our dating matching system. Finally, we’ll discuss some of the upcoming features in the near future, such as clustering and scripting.',
+        'speaker' => 'Garrison Locke && Shaun Farrell && Jason Austin',
+        'title' => 'Service Oriented Architecture Panel Discussion',
+        'description' => 'Everyone talks about the pie-in-the-sky goal of having a 100% service oriented architecture for their organization.  Not many are actually able to reach that elusive goal.  Usually they start off strong and then find it’s just simpler to get to 75% and not worry about the trickier interactions with their services.  How important is it really to avoid hard-coding that drop-down menu?  It may not seem like a big deal now...but you’ve got to think of all the possible changes you might ever need or want to make to that menu.  However, the PintLabs team has completely SOA’ed their infrastructure and will share why and how they did it, the benefits of perseverance in the face of pesky drop-down menus, horror stories, and some tips and tricks for being successful.',
       ),
       1 => 
       array (
-        'speaker' => 'Mark Brown',
-        'title' => 'Moving the Cloud Beyond Hype to Reality',
-        'description' => 'Everyone has heard of the cloud. Many still see it as an overhyped buzzword yet the cloud is today being used not only by developers building games and mobile devices applications but by now Enterprises as well. The cloud is changing the landscape forever, bringing with it some massive improvements and equally massive changes. As a developer you need to understand the options and implications for new applications you are building and also understand them for legacy applications where the cloud is making just as big of an impact.In this session weâll explore a wide array of applications and architectures and explain the technical considerations and implications when these applications are deployed within the cloud. In addition we will look at the two primary cloud platform service models, Infrastructure as a Service (IaaS) and Platform as a Service (PaaS), plus a third Software as a Service (SaaS). We will talk about some of the vendor offerings leveraging these service models, explore the differences between the approaches and explain the impact they have as you design, build, deploy and scale your applications highlighting complexity versus flexibility so that you understand what is the right approach for you.',
+        'speaker' => 'Chris Cornutt',
+        'title' => 'Top 10 Developer Security Misconceptions',
+        'description' => 'When it comes to security in development, there\'s a lot of things developers have the wrong idea about - things like "I don\'t have enough time" or "I don\'t know enough to be effective." Join me as a I run through the "top ten" of the list and help dispel them and make your life as a developer easier.',
       ),
       2 => 
       array (
-        'speaker' => 'Neal Anders',
-        'title' => 'Graphing Real-time Performance with Graphite',
-        'description' => 'Graphing real-time performance with Graphite – http://graphite.wikidot.com/  This presentation will take an existing open-source project (done in php) and cover how to integrate performance monitoring to identify areas that could be improved through code refactoring or database tweaks.',
+        'speaker' => 'Chris Tankersley',
+        'title' => 'PHP and Node.js Together',
+        'description' => 'PHP isn\'t the only server side language that PHP developers are familiar with. You can utilize your Javascript knowledge to build server-side Javascript code using Node.js. Node.js can help bring real-time interactive features to your website or run background tasks along side your existing PHP code. We\'ll go over a bit of Node.js and the server side bits and then how to integrate it into your application.',
+      ),
+      3 => 
+      array (
+        'speaker' => 'Ben Marks',
+        'title' => 'Finding Your Way: Understanding Magento Code',
+        'description' => 'With millions of lines of code, an unconventional approach to MVC framework architecture, and unique concepts such as layout XML, Magento can be intimidating for the new developer and even difficult for experienced Magento developers. This talk aims to help developers find answers in the codebase by breaking down the technologies, design patterns, and module structure into intuitive chunks. Starting with a high level view of Magento\'s MVC implementation, a pre-developed module is dissected in order to demonstrate various areas of the framework as well as the application-level settings and features which can thwart (or aide!) developers.   Topics covered include the following: * MVC theory as implemented by Magento, especially the thin-controller, fat-view concept * Overall module architecture * Finding method definitions when grep won\'t work, aka "when __call() strikes" * Identifying poor-performing code using native code profiling tools * An infallible (well, nearly-infallible) flowchart for finding problematic code * Essential developer preparations',
       ),
     ),
-    'day' => 'Day 1',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 11:30:00',
+       'date' => '2013-05-15 11:30:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
+    'day' => 'Conference Day 1',
   ),
-  1337794200 => 
+  1368639000 => 
   array (
-    'title' => 'Lunch',
-    'day' => 'Day 1',
+    'title' => 'Lunch Served',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 12:30:00',
+       'date' => '2013-05-15 12:30:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Conference Day 1',
   ),
-  1337797800 => 
+  1368642600 => 
+  array (
+    'talks' => 
+    array (
+      0 => 
+      array (
+        'speaker' => 'Derick Rethans',
+        'title' => 'Performance Perpetrators: Profiling for Professionals',
+        'description' => 'The web is full of advice focused on improving performance.  Before you can optimize however, you need to find out if your code is actually slow; then you need to understand the code; and then you need to find out what you can optimize.  This talk introduces tools and concepts to find performance issues with your web application, and stack.',
+      ),
+      1 => 
+      array (
+        'speaker' => 'Andreas Hucks',
+        'title' => 'What Symfony Components can Do for You',
+        'description' => 'Symfony 2 has had a profound impact on the PHP world since well before the initial stable release, and its components have since been picked up as building blocks by many open source projects. Take a look at how Symfony Components can be of use to you, and how they make your life easier in migrating legacy projects towards a modern architecture.',
+      ),
+      2 => 
+      array (
+        'speaker' => 'Patrick Schwisow',
+        'title' => 'Code Reviews: The \'Secret\' to Building Quality Software',
+        'description' => 'If you\'re really good at writing software, your code will be flawless, right?  Well, not exactly...  Even the best of us overlook things and make an (occasional) mistake.  Even if the theoretical "perfect developer" did exist, could you find (and afford) a whole team like that?  One way to minimize the risk of mistakes is requiring all code be reviewed and tested by a second person before it goes to production.  Larger organizations may have separate QA people, but this is not always feasible for a small team.  The developers already know the code, so get them to review each other!  I\'ll talk about how to incorporate code reviews and testing into your workflow with (relatively) little impact on your team\'s velocity in exchange for big improvements in code quality.',
+      ),
+      3 => 
+      array (
+        'speaker' => 'Cory Fowler',
+        'title' => 'Creating PHP Cloud Applications',
+        'description' => 'Need to harness the power of scale within your web applications or APIs? Join Cory Fowler as he demonstrates how to build web applications and APIs that easily scale using Windows Azure Web Sites and the Silex Micro-framework. From Cloud Storage to Messaging this session will be action packed with demos, definitely not a session to miss.',
+      ),
+    ),
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-15 13:30:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'talks',
+    'day' => 'Conference Day 1',
+  ),
+  1368647100 => 
+  array (
+    'talks' => 
+    array (
+      0 => 
+      array (
+        'speaker' => 'Chris Hartjes',
+        'title' => 'Web Acceptance Testing for Grumpy Programmers',
+        'description' => 'You\'ve got your unit tests written and everything is green. Now it\'s time to step up to the next level and write acceptance tests for your application.  Behaviour Driven Development is an awesome way for developers and stakeholders to use a common language to describe when your web application is working properly.  In this talk, testing curmudgeon Chris Hartjes will show some practical uses of Behat and Mink, two web acceptance tools that provide great testing functionality right out of the box.',
+      ),
+      1 => 
+      array (
+        'speaker' => 'Pablo Godel',
+        'title' => 'Creating Mobile Applications with PHP and Symfony2',
+        'description' => 'In this talk we will look at some of the reasons on why mobile applications are important, including some history on the mobile market. Then we will look at some frameworks that help develop high-quality mobile apps and we will showcase a mobile app developed with PHP and Symfony2, including the source code which will be available on Github.',
+      ),
+      2 => 
+      array (
+        'speaker' => 'Wim Godden',
+        'title' => 'Beyond PHP : it\'s Not (Just) About the Code!',
+        'description' => 'Most PHP developers focus on writing code. But creating Web applications is about much more than just writing PHP. Take a step outside the PHP cocoon and into the big PHP ecosphere to find out how small code changes can make a world of difference on servers and network. This talk is an eye-opener for developers who spend over 80% of their time coding, debugging and testing.',
+      ),
+      3 => 
+      array (
+        'speaker' => 'Jeremy Kendall',
+        'title' => 'Keeping it Small: Getting to Know the Slim Micro Framework',
+        'description' => 'Learn what the big deal is about PHP micro frameworks by taking a tour through an application written in Slim PHP.  I\'ll briefly introduce you to some high level concepts, show how those concepts can be implemented in Slim, and see how powerful and elegant micro framework can be.',
+      ),
+    ),
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-15 14:45:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'talks',
+    'day' => 'Conference Day 1',
+  ),
+  1368651600 => 
+  array (
+    'talks' => 
+    array (
+      0 => 
+      array (
+        'speaker' => 'Sara Golemon',
+        'title' => 'Scaling PHP with HipHop',
+        'description' => 'HipHop is the Open Source PHP language compiler and runtime designed and used by Facebook. HipHop offers a significant speed improvement over the official PHP runtime and supports most of its core features. This session will provide an introduction to how and why to use HipHop over PHP, and the benefits it offers.',
+      ),
+      1 => 
+      array (
+        'speaker' => 'John Congdon',
+        'title' => 'Encryption, It\'s For More Than Just Passwords',
+        'description' => 'As developers, most of us are familiar with password hashing and encryption, but are you doing it in the most secure way?  A simple md5() isn\'t going to cut it. Then there are times you want other data encrypted in a way that you can decrypt it as well.  Think Social Security Numbers, Credit Card Numbers, and any other sensitive data that you still need to work with.  We will discuss best practices for protecting your data.',
+      ),
+      2 => 
+      array (
+        'speaker' => 'Harrie Verveer',
+        'title' => 'Database Version Control without Pain?',
+        'description' => 'We\'ve all read the textbooks and are using version control systems for our code, but our databases are left out in the cold.  Every team has their own workaround, ranging from patch files to SQL snippets in the bugtracker, but none is really robust.  There isn\'t a silver bullet solution, but this talk will show you different approaches and tools that you can use in different kinds of projects, helping you to handle the changes in your database structure in a more sophisticated way.',
+      ),
+      3 => 
+      array (
+        'speaker' => 'Elizabeth Smith',
+        'title' => 'Mentoring Developers',
+        'description' => 'How to train the next generation of Masters  One of the best ways to move yourself forward as a developer is to have mentors who can help improve your skills, or to be a mentor for a newer developer. Mentoring isn\'t limited to just \'hard\' or technical skills, and a mentoring relationships can help in all aspects of any career - be it open source, a day job, or something else entirely.  Learn some skills and tips from people who make mentoring an important aspect of their lives. From how to choose a mentor and what you should expect from a relationship as a padawan, to how to deal with the trials and successes of the person you are mentoring as they grow in their career.  Also learn about setting up mentorship organizations, from the kind inside a company to one purely for the good of a community.',
+      ),
+    ),
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-15 16:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'talks',
+    'day' => 'Conference Day 1',
+  ),
+  1368657000 => 
+  array (
+    'title' => 'Mentorship Summit, including Dinner',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-15 17:30:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Conference Day 1',
+  ),
+  1368662400 => 
+  array (
+    'title' => 'Opening Night Party',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-15 19:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Conference Day 1',
+  ),
+  1368708300 => 
+  array (
+    'title' => 'Registration Opens',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-16 07:45:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Conference Day 2',
+  ),
+  1368709200 => 
+  array (
+    'title' => 'Breakfast Served',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-16 08:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Conference Day 2',
+  ),
+  1368712800 => 
+  array (
+    'title' => '        
+            
+                Keynote: WordPress is Everywhere:
+Extreme Portability as a Double-Edged Sword
+                Andrew Nacin
+            
+        ',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-16 09:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Conference Day 2',
+  ),
+  1368717300 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
         'speaker' => 'Ligaya Turmelle',
-        'title' => 'My Journey into NoSQL and MySQL’s NoSQL Implementation',
-        'description' => 'Did you know that MySQL has a NoSQL interface? No? Would it interest you that they are using the memcached API to hook directly into the InnoDB and MySQL Cluster (NDB) storage engines – skipping the MySQL server completely?  I  recently heard about it, and was curious to see how it worked and what it did. Come with me as I discuss what I learned along the way.',
+        'title' => 'Whats New with MySQL 5.6',
+        'description' => 'MySQL 5.6 is currently in release candidate status (or GA depending on if it is released by the time the conference starts) and contains a number of new features and improvements.  Just about anyone can find something in the new release to be excited about. Come with me as we discuss what 5.6 has to offer.',
       ),
       1 => 
       array (
-        'speaker' => 'Ian Barber',
-        'title' => 'Taking Sites Mobile',
-        'description' => 'Giving a great user experience for browsers on mobile devices is going to be a bigger and bigger part of any web developers work over the next few yeas. In this talk we’ll look at how to take existing sites and adapt them for mobile support – including the administrative functionality as well as the main front end. We’ll look at the additional functionality available, and the limitations that will have to be mitigated when taking a site mobile. We’ll also look at how Facebook apps can be adapted to run in their mobile app, and where and when to consider specialist mobile sites as part of a strategy.',
+        'speaker' => 'Derick Rethans',
+        'title' => 'OpenStreetMap for the Web',
+        'description' => 'This presentation introduces OpenStreetMap and explains to the audience what sort of rich data set it has. I will also cover different APIs for using the map tiles as well as other APIs that form sister-projects to OSM, such as Nominatim (search), routing, and obtaining current-location information. Some hints on storage and searching will also be given.  During the course of the presentation I will also have to dip into some of the theoretical issues surrounding map making in general, and show a PHP extension to help you calculate all kinds of geo-things.',
       ),
       2 => 
       array (
-        'speaker' => 'Paul Jones',
-        'title' => 'Solving the N+1 Problem; or, A Stitch In Time Saves Nine',
-        'description' => '',
+        'speaker' => 'Elizabeth Smith',
+        'title' => 'There\'s an Extension for That',
+        'description' => 'Did you know that there is a great PHP extension that talks to redis (and is twice as fast as predis?)  Did you know there is already a great wrapper around curl that makes HTTP requests in PHP far less painful?  Did you know there are extensions for ssh, svn, even git connectivity from PHP?  Stop writing functionality in userland that is far faster and easier to use in a PHP extension.  From parsing lua to diffing files, there\'s an extension for that.  This talk will go over some of the more commonly useful pecl extensions with information about extension maintenance and installation, speed and memory improvements, and how to talk your sysadmin into installing.',
       ),
     ),
-    'day' => 'Day 1',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 13:30:00',
+       'date' => '2013-05-16 10:15:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
+    'day' => 'Conference Day 2',
   ),
-  1337802300 => 
+  1368721800 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Brian Moon',
-        'title' => 'Continuous Deployment at dealnews',
-        'description' => 'The Web moves fast, really fast. No one talks about what version of a web site you are using. Maybe you are using the beta version. Even then, it is always new. The Web is obsessed with new. It thrives on new. To meet this demand, in the early years of the web, teams learned a new way to deploy their software. Rather than the traditional models used by compiled, installed software, these pioneers on the Internet deployed software when it was ready. That meant Web sites could be responsive to changes, fix bugs quickly, and add new features to compete with the market. This method is still alive today. Successful web companies still do this to keep their advantage. While there are no set rules, there are good examples of what others do and how it helps them be successful.',
+        'speaker' => 'Lorna Mitchell',
+        'title' => 'Five Tools for Better PHP Development',
+        'description' => 'We hear so much about the PHP code - but what about the tools that will help the speed and quality of the rest of the development process?  This talk runs through five tools that will improve the way you develop, making life easier for you and your team, and letting you spend more time on the interesting bits of the projects.  We\'ll look at deploying sites with phing, static analysis packages such as php code sniffer and phpdoc, and how to keep an eye on applications after they\'ve gone live using monitoring systems and supervisord.  If you have a place in directing the improvement of development processes in your team, then this session is for you.',
       ),
       1 => 
       array (
-        'speaker' => 'Laura Beth Denker',
-        'title' => 'It’s More Than Just Style',
-        'description' => 'Mention PHP CodeSniffer, and most will think it’s just for style.  Add passing PHP CodeSniffer to your test suites, and hear the groans.  Why are we wasting time on whitespace rules?  Why does it matter that my lines are longer than X characters?  The answer:  PHP CodeSniffer is more than just style.  In this talk we will discuss what sniffs can save you from runtime errors, sniffs that can help you upgrade your PHP install, and sniffs that can help you find the bits of code that are slowing down you and your team.',
+        'speaker' => 'Thijs Feryn',
+        'title' => 'C.R.E.A.M (Cache Rules Everything Around Me)',
+        'description' => 'Don\'t confuse this one with the well-known Wu-Tang Clan song, but cache does indeed rule everything around me.  This talk will focus on the most popular caching techniques used in PHP: APC, Memcached and Redis. But we\'ll also talk about web and proxy servers such as Varnish and Nginx.',
       ),
       2 => 
       array (
-        'speaker' => 'Eli White',
-        'title' => 'Web Security and You',
-        'description' => 'This talk will focus on XSS, CSRF, Session Hijacking, SQL Injection, and other security issues need addressed in Website Development, and how to close them. This talk will delve into some specific code examples showing where vulnerabilities exist, and how to prevent them.',
+        'speaker' => 'Chris Tankersley',
+        'title' => 'Drupal Development Tips',
+        'description' => 'Any PHP developer can develop modules for Drupal, but like any system newcomers, will have a learning curve that must be overcome before the system makes sense. With Drupal playing the role of both a CMS as well as a generic application framework, you have the power to build complex applications as well as small modularized code. We\'ll look at tools and practices to make Drupal development easier like the devel module, SimpleTest unit testing, and moving components back and forth with the Features module.',
       ),
     ),
-    'day' => 'Day 1',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 14:45:00',
+       'date' => '2013-05-16 11:30:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
+    'day' => 'Conference Day 2',
   ),
-  1337806800 => 
+  1368725400 => 
   array (
-    'talks' => 
-    array (
-      0 => 
-      array (
-        'speaker' => 'Joshua Thijssen',
-        'title' => 'Puppet for Dummies',
-        'description' => 'Puppet is a configuration management tool which allows easy deployment and configuration ranging from one to a thousand servers (and even more). Even though puppet is a common tool in the devops-world, it is still a strange piece of software for developers. How does it work and what can it do for you as a developer?',
-      ),
-      1 => 
-      array (
-        'speaker' => 'Kirsten Jones',
-        'title' => 'Creating Facebook Apps in the Cloud',
-        'description' => 'Facebook apps can now be made using cloud providers such as PHP Fog and Heroku.  How can you get set up on these systems and create applications to use with Facebook?  This talk will discuss getting started in each system and creating a very simple Facebook application – we’ll go over the code examples and demonstrate basic functionality.  If you’re familiar with developing for Facebook, this talk will show you how to deploy those apps to the cloud.  If you haven’t built any Facebook applications yet, this will get you started on that path.',
-      ),
-      2 => 
-      array (
-        'speaker' => 'Rich Bowen',
-        'title' => 'How to Let Go of Your Ego and Help Your Customers Succeed',
-        'description' => 'In the Twitter, Mobile App, Youtube era, you have less and less time to persuade your customers that you have the right solution to their problems. The time of telling them to RTFM are long gone, but some of us just can’t escape, and continue to treat the LUSER as an inconvenience. In this talk, Rich will share some tips from his 15 years of documentation and customer support experience, to help you stop being a jerk, and help your customers succeed at using your products.',
-      ),
-    ),
-    'day' => 'Day 1',
+    'title' => 'Lunch Served',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-23 16:00:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'talks',
-  ),
-  1337811300 => 
-  array (
-    'keynote' => 'Unconference',
-    'day' => 'Day 1',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-23 17:15:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'keynote',
-  ),
-  1337866200 => 
-  array (
-    'title' => 'Coffee appears',
-    'day' => 'Day 2',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-24 08:30:00',
+       'date' => '2013-05-16 12:30:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Conference Day 2',
   ),
-  1337868000 => 
-  array (
-    'keynote' => 'Keynote',
-    'day' => 'Day 2',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-24 09:00:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'keynote',
-  ),
-  1337872500 => 
+  1368729000 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Paul Jones',
-        'title' => 'Decoupled Library Packages for PHP 5.4',
-        'description' => 'This talk will give an overview of the Aura project, a collection of independent (non-framework) library packages providing commonly-needed tools for developers. The talk includes a discussion of the benefits of dependency injection when removing dependencies.',
+        'speaker' => 'Chris Cornutt',
+        'title' => 'Beyond the Basics: Security with PHP',
+        'description' => 'You\'ve seen some of the basics of securing your application - validating input, filtering output and the like. Let me take you a step further into more advanced security in PHP. Protecting your application from things like XML injection, insecure sessions and upload issues can be tricky. This session is a how-to on keeping your app safe beyond XSS, CSRF and SQL injections.',
       ),
       1 => 
       array (
-        'speaker' => 'Kirsten Jones',
-        'title' => 'Demystifying REST',
-        'description' => 'REST web services are everywhere!  It seems like everything you want is available via a web service, but getting started with one of these web services can be overwhelming – and debugging the interactions bewilders some of the smartest developers I know.  In this talk, I will talk about HTTP, how it works, and how to watch and understand the traffic between your system and the server.  From there I’ll proceed to REST – how REST web services layer on top of HTTP and how you can expect a REST web service to behave. We’ll go over how to monitor and understand requests and responses for these services. Once we’ve covered that, I’ll talk about how OAuth is used for authentication in the framework of a REST application.  PHP code samples will be shown for interacting with an OAuth REST web service, and I will cover http monitoring tools for multiple OS’s.  When you’re done with this talk you’ll understand enough about REST web services to be able to get started confidently, and debug many of the common issues you may encounter.',
+        'speaker' => 'Chris Hartjes',
+        'title' => 'Building Testable PHP Applications',
+        'description' => 'You are ready to start writing tests for your code, but your code isn\'t ready to be tested. It\'s a mess and you know it, but you have got work to do and only so much time to go back and rewrite code that is already working...sort of. You want your evenings and weekends back. What if I told you there are a few easy-to-follow rules for creating testable PHP code? Rules that you can incorporate into your workflow RIGHT NOW. Let legendary (in his own mind) grumpy programmer Chris Hartjes show you tips and tricks he has learned to write PHP code that is easy to test and maintain.',
       ),
       2 => 
       array (
-        'speaker' => 'Rich Bowen',
-        'title' => 'Mapping URLs With and Without mod_rewrite',
-        'description' => 'Yes, we all hate mod_rewrite, but we also can’t quite seem to manage without it. In this talk, the author of “The Definitive Guide To Apache mod_rewrite” will show you how to accomplish wizardry with mod_rewrite as well as numerous other ‘url mapping’ modules available for the Apache HTTP Server. Rich is the author of much of the mod_rewrite documentation, and several books about the Apache HTTP Server.',
+        'speaker' => 'Arbi Arzoumani',
+        'title' => 'A Mobile Mindset: Attaining Responsiveness',
+        'description' => 'As developers, design is generally not our main focus. However, we play a central role in making great design possible. Learn a few of the tools at your disposal, like Twitter’s Bootstrap project, Zurb\'s Foundation HTML/CSS framework, jQuery, and even a server-side PHP library that serves flexible images. These tools create the foundation for a great, responsive front end with minimal effort on our end. Don\'t dismiss this as a talk for designers. This talk will cover the benefits to those who create the back ends, focusing on what really matters to developers.',
       ),
     ),
-    'day' => 'Day 2',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-24 10:15:00',
+       'date' => '2013-05-16 13:30:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
+    'day' => 'Conference Day 2',
   ),
-  1337877000 => 
+  1368733500 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Justin Carmony',
-        'title' => 'Demystifying CSS for Developers',
-        'description' => 'CSS has been the Achilles Heel for many developers in their web development career. Even if we are not the designers, many times we break what the designers give us. Ultimately, you’re left with visual bugs that can do not make any sense In this presentation, we’ll visually demonstrate the commonly misunderstood  core principles in CSS and the usual pitfalls we run into. We’ll show how to fix these pitfalls, and help you understand why they happen. After this presentation, you will have a much better understanding of CSS, know the tools to use to debug it, and the resources to help you along the way. You’ll not only have an awesome website under-the-hood, but a good looking one too.',
+        'speaker' => 'Mike Stowe',
+        'title' => 'Traits and Horizontal Design',
+        'description' => 'One of the newest and most powerful features in PHP 5.4 is Traits, or the ability to implement horizontal design into your application.  In this session we will take a look at what traits are and how to use them (including examples of when to use horizontal design) as well as review the ReflectionClass and how it can be used to describe the traits in your code base.',
       ),
       1 => 
       array (
-        'speaker' => 'Joshua Thijssen',
-        'title' => '(Re)discovering the SPL',
-        'description' => 'The Standard PHP Library (SPL) might be one of the most powerful, yet the most unused part of PHP. The lack of documentation about SPL makes it that a lot users don’t really harvest the power that SPL brings. During this presentation I will dive into the numerous iterators, data-structures and interfaces that SPL defines and when & how to implement them in your own projects.',
+        'speaker' => 'Rafael Dohms',
+        'title' => 'Your Code Sucks, Let\'s Fix It',
+        'description' => 'Performance and testing are just one aspect of code, to really be successful your code needs to be readable, maintainable and generally easier to comprehend and work with. This talk draws from my own experience in applying the techniques of object calisthenics and code readability, within an existing team. It will help you identify trouble areas, learn how to refactor them and train you to write better code in future projects avoiding common pitfalls.',
       ),
       2 => 
       array (
-        'speaker' => 'Helgi Ãormar ÃorbjÃ¶rnsson',
-        'title' => 'PHAR, the PHP .exe Format',
-        'description' => 'Learn about what the PHAR (PHP Archives) format is all about. A PHAR is conceptually similar to a Java JAR but made to fit PHP’s needs.  Hear how to use it to distribute your product to clients, why open source projects have started offering their projects as a PHAR file, run your application directly from the PHAR container without extracting anything to the filesystem, secure it using the signature feature to ensure the container hasn’t been tampered with and many other interesting features.  By the end of it you will be wanting to use PHAR for CLI and Web apps alike!',
+        'speaker' => 'Dave Stokes',
+        'title' => 'Ten Things to Make Your MySQL Servers Faster and Happier',
+        'description' => 'MySQL is the ubiquitous database for the web but it takes a little bit of tweaking to make it run efficiently (and to keep from giving you headaches).  This session is for those who take care of their MySQL instances as part of their normal work load but are not DBAs.  Lean how to gave the efficiency of your server, simple replication tricks to avoid downtime, whey columns on the right hand side of a query need not be indexed, where to spare scarce upgrade money for the best performance,  how to partition data, and more.',
       ),
     ),
-    'day' => 'Day 2',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-24 11:30:00',
+       'date' => '2013-05-16 14:45:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
+    'day' => 'Conference Day 2',
   ),
-  1337880600 => 
+  1368738000 => 
   array (
-    'title' => 'Lunch',
-    'day' => 'Day 2',
+    'talks' => 
+    array (
+      0 => 
+      array (
+        'speaker' => 'Patrick Schwisow',
+        'title' => 'DO ALL THE THINGS!!!',
+        'description' => 'Once you\'ve been around for a while, people (hopefully) start to look up to you, and you may find yourself bestowed with the coveted title of \'Senior\'. All is well with the world, until your team leader takes a position elsewhere, and you\'re asked to cover some of his duties. Before you realize it, you\'re planning projects, running the day-to-day operations of the team, answering all the questions, and still trying to produce quality code at the same pace as before. It\'s tough enough to transition from developer to manager in an ideal situation, but being stuck somewhere in the middle has a whole additional set of challenges.  I\'ll discuss these challenges and how to successfully handle them until everything settles out (whether that means you move to management or go back to the code).',
+      ),
+      1 => 
+      array (
+        'speaker' => 'Jeremy Kendall',
+        'title' => 'PHP 102: Out with the Bad, In with the Good',
+        'description' => 'In this session, we\'ll look at a typical PHP application, review a few of the horrible mistakes the fictional developer made, and then refactor the app according to some best practices. Along the way you might even learn a thing or two about PHP you don\'t already know.',
+      ),
+      2 => 
+      array (
+        'speaker' => 'Davey Shafik && Ligaya Turmelle',
+        'title' => 'MySQL HA, Recovery and Load Balancing',
+        'description' => 'Using Percona Server and Percona XtraDB Cluster we will take a look at several possible replication configurations for MySQL high-availability, disaster recovery and load-balancing.  We will compare these systems for administration ease, scalability of reads and writes, robustness of the system for errors, time for data recovery and how the choice can impact your application code.  We will discuss the pros and cons of setting up up each system, and what trade-offs you will need to consider when making your decision.',
+      ),
+    ),
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-24 12:30:00',
+       'date' => '2013-05-16 16:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'talks',
+    'day' => 'Conference Day 2',
+  ),
+  1368743400 => 
+  array (
+    'title' => 'Hackathon',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-16 17:30:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Conference Day 2',
   ),
-  1337884200 => 
+  1368748800 => 
   array (
-    'talks' => 
-    array (
-      0 => 
-      array (
-        'speaker' => 'Neal Anders',
-        'title' => 'php://memory and Streams for Scaling',
-        'description' => 'php://memory and streams for scaling  This presentation will be an overview of using php://memory to store data during application runtime. We will cover the benefits over traditional methods and also some drawbacks.',
-      ),
-      1 => 
-      array (
-        'speaker' => 'Edward Finkler',
-        'title' => 'Slim your PHP, Fatten your JS',
-        'description' => 'Browsers are finally rich enough to let us offload front-end concerns to where it should goâin the front-end. It’s time to stop writing PHP apps for 2004′s web and start writing them for today’s web. In this talk we’ll cover how PHP can interact with rich web applications, maintain link-ability, and avoid redundant code, demonstrating proven techniques from the FictiveKin crew.',
-      ),
-      2 => 
-      array (
-        'speaker' => 'Rob Richards',
-        'title' => 'API Security',
-        'description' => 'People may consider API and Web application security the same, but are often surprised to find that API security involves many additional, some much more complex issues, that must be addressed. During this presentation I will cover some of the more common issues such as authentication and authorization, privacy, as well as payload and other API related attacks and security vulnerabilities.',
-      ),
-    ),
-    'day' => 'Day 2',
+    'title' => 'Social Activity / Conference Party',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-24 13:30:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'talks',
-  ),
-  1337888700 => 
-  array (
-    'talks' => 
-    array (
-      0 => 
-      array (
-        'speaker' => 'Ian Barber',
-        'title' => 'Building a Firehose',
-        'description' => 'More and more companies are realising they have a wealth of data available to them, or they have the opportunity to aggregate information from multiple sources in near real time. While big data and batch processing systems like Hadoop are part of the tool kit of many teams, more and more are realising that a continually updating system of pipes and filters – a fire hose – of their data is a powerful and flexible tool. In this talk we will look at the challenges of building this type of system, the patterns and techniques that can help simplify it, and the difficulties of managing such a system when it’s running.',
-      ),
-      1 => 
-      array (
-        'speaker' => 'Luke Stokes',
-        'title' => 'From POX to HATEOAS, A Real Company’s Journey Building a RESTful API',
-        'description' => 'We started FoxyCart.com in 2007 and soon after slapped together some XML and called it an API. As our company and customer base grew and third-party integrations emerged, the need for a true RESTful API became our next priority. This session will tell the inspiring, ongoing story of how an ecommerce platform for developers researched and developed a new API from scratch using as many RESTful principles as possible.',
-      ),
-      2 => 
-      array (
-        'speaker' => 'Ryan Weaver',
-        'title' => 'JavaScript Best Practices & BackboneJS for the PHP Developer',
-        'description' => 'Does your JavaScript code always end up inside one giant jQuery document ready function? Have you heard about Backbone.js but not sure what it means to you? In this talk, we’ll learn some basic ways that we can start organizing our JavaScript to be more readable and reusable. We’ll also explore the basics of Backbone.js, learn when it’s useful, and see what we can learn from it as we develop JavaScript in our applications. We’ll focus specifically on using Backbone.js with a PHP backend, how each works together, and the challenges of having two models and sharing templates.',
-      ),
-    ),
-    'day' => 'Day 2',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-24 14:45:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'talks',
-  ),
-  1337893200 => 
-  array (
-    'talks' => 
-    array (
-      0 => 
-      array (
-        'speaker' => 'Mike Ho',
-        'title' => 'iOS Development Primer for PHP Developers',
-        'description' => 'No one can deny the impact Apple has had on the software market with the release of iPhones, iPads, iPod Touches, and of course the iTunes App Store.  It’s difficult to find a PHP developer anywhere who has not at least considered how they might be able to capitalize on Apple’s mobile marketplace.  For PHP developers that are looking to build on iOS specifically, there are quite a few things to consider in terms of developing the right mobile strategy and approach.  We will cover some higher level business considerations and then delve right into the technical hurdles a PHP developer or development team will face, and go over best practices on how to avoid these common pitfalls.  The talk will include specific coding examples, comparing PHP syntax to Objective-C, as well as talking about the high-level differences between both languages, and discuss how that would impact application architecture and design.  We will also focus on building PHP-based cloud backends for iOS applications, and the pros and cons of specific iOS SDK approaches specifically for PHP and various PHP-based frameworks.',
-      ),
-      1 => 
-      array (
-        'speaker' => 'Scott MacVicar',
-        'title' => 'Scaling Your Development Team',
-        'description' => '10 people working on a single code base can be considered high, but what about 800 people? At Facebook, code is pushed 5 times a week to over 800 million people. The small amount of downtime is due to the practices of our engineering team and the process used to do a release. Scottâs talk is going to cover everything that goes into the development of a feature at Facebook and how that code is pushed. He will try to cover as much as possible about the underlying technology stack and the open source software they use and release to make it all happen.',
-      ),
-      2 => 
-      array (
-        'speaker' => 'Helgi Ãormar ÃorbjÃ¶rnsson',
-        'title' => 'Deep Dive into Gearman',
-        'description' => 'With every passing year the data that companies and application store grows astronomically, both through more data logging for business analysis and the consumption of 3rd party data (mashups), but how can those companies make sense of all that data and turn it into something useful that is constantly updating and evolving?  Gearman is a very good and simple solution to this data problem. Gearman allows you to farm out work to other machines better suited to do the job at hand in a language and platform agnostic manner. During the talk I will tell stories of 2 different products where I faced a huge data processing challenges and how I solved them with Gearman.   I will do demos and live coding of Gearman workers, a deep dive into the system!  Welcome to the Age of Data, we have cookies.',
-      ),
-    ),
-    'day' => 'Day 2',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-24 16:00:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'talks',
-  ),
-  1337897700 => 
-  array (
-    'keynote' => 'Hack-a-thon',
-    'day' => 'Day 2',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-24 17:15:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'keynote',
-  ),
-  1337952600 => 
-  array (
-    'title' => 'Coffee appears',
-    'day' => 'Day 3',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-25 08:30:00',
+       'date' => '2013-05-16 19:00:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'common',
+    'day' => 'Conference Day 2',
   ),
-  1337954400 => 
+  1368795600 => 
+  array (
+    'title' => 'Breakfast Served',
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-17 08:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'common',
+    'day' => 'Conference Day 3',
+  ),
+  1368799200 => 
   array (
     'talks' => 
     array (
       0 => 
       array (
-        'speaker' => 'Jake Smith',
-        'title' => 'Iterators in PHP',
-        'description' => 'PHP iterators have been around since PHP 5, but are heavily under utilized. With all the built-in iterators there is no reason you shouldn’t be leveraging it’s power and flexibility. In this session you will learn about all the built-in PHP iterators and be guided on how to extend and/or create your own iterators.',
+        'speaker' => 'Rafael Dohms',
+        'title' => 'Composer for Busy Developers',
+        'description' => 'Managing dependencies and third-party code in PHP applications is a daily challenge, keeping everyone on the same versions during development and at deploy time a struggle. Meet Composer a tool designed to help you maintain a consistent set of dependencies  as well as share and discover new libraries. Let\'s see how you can use this tool in your Applications and Libraries to wrangle your dependencies with a simple json configuration file and a command line interface.',
       ),
       1 => 
+      array (
+        'speaker' => 'Arbi Arzoumani',
+        'title' => 'Embedded PHP with RasPi',
+        'description' => 'In Dec. 2012, W3C published the complete HTML5 specifications and declared it as feature complete. In fact, the draft of HTML5.1 is already available. This talk will cover HTML5 local storage usage and the advantages of streaming with event source (a better server/client one-way communication than AJAX). A sample app for both topics will be demonstrated using a Rasberry Pi (RasPi) loaded with LAMPi acting as the web server pushing data. I will also go through the LAMP install process on the RasPi.',
+      ),
+      2 => 
+      array (
+        'speaker' => 'John Congdon',
+        'title' => 'Best Practices for the Sole Developer',
+        'description' => 'Being a sole developer has some pros and cons.  I would not recommend it to anyone at this point in my career, but I do know they exist, and companies will be to cheap to hire help.  My goal in this talk will be to show you what I wish I would have learned MANY years ago.  Use GIT, Test, have a Deployment Strategy, DON\'T EDIT PRODUCTION CODE!  This talk will give you ideas and guidance to learn more.',
+      ),
+    ),
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-17 09:00:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'talks',
+    'day' => 'Conference Day 3',
+  ),
+  1368803700 => 
+  array (
+    'talks' => 
+    array (
+      0 => 
+      array (
+        'speaker' => 'Ben Ramsey',
+        'title' => 'API First',
+        'description' => 'A recent theme among web creators is the notion of mobile first. It\'s the idea that we should design first for the mobile experience. Throw in the concepts of progressive enhancement and responsive design, and we have some excellent approaches to interface design and development. But where does that leave the overall software design? How do we get all the data to the interface and manipulate it without building a lot of back-end scripts to drive the various front-end incarnations? A centralized API will solve these problems, but we\'re often scrambling to implement the "mobile first" strategy on top of existing code. For good web software design, it\'s time to start thinking in terms of API first.  In this talk, Ben Ramsey pulls from his experience making APIs to discuss how you can begin projects with an API-centric mindset and use this to your advantage to deliver software quickly, more efficiently, and with higher quality. If you already have projects that began life without APIs, then have no fear. Ben will also share how to use the same principles to convert existing web applications to API-backed software…with some elbow grease, of course.',
+      ),
+      1 => 
+      array (
+        'speaker' => 'Lorna Mitchell',
+        'title' => 'Pains and Gains of PHP Upgrades',
+        'description' => 'What version of PHP are you running?  PHP 5.3?  PHP 5.4?  PHP 5.2?  Most of us lag behind the \'new shiny\', but at some point you\'ll face both the pain of the upgrade migration and the joy of the new features and performance improvements.  Whether it\'s your boss or your distro that holds you back, this session covers what to expect with each upgrade.  You will find out about the excellent new features and how to use them, and also get practical, hands-on information about performing a successful upgrade.',
+      ),
+      2 => 
+      array (
+        'speaker' => 'Sean Prunka',
+        'title' => '<?php echo \'Hello Worlâ¦Ooo, shiny!: How to deal with distractions',
+        'description' => 'This session is about PHP programming in the real world, not on a single, specific project, but instead, on the real world example of being a code monkey and having your problems dictated to you. Your average code monkey is probably working on several projects, whether as a part of a “PHP farm” or even just multiple projects for a single client. We are problem solvers, we are innovators, we are solutions experts, BUT what is it that we actually do? Switching gears is costly, but inevitable. How many times have you been mired deep into your code, in the zone; only to be yanked out unsurreptitiously to answer a simple tech support question from your manager? “Hey Sean, how do I log into the admin portal again?” My talk is geared toward maximizing your efficiency in real world scenarios like this. With examples of “What to do if I’m knocked out of the zone?” and “How to avoid breaking someone else’s pace.”',
+      ),
+    ),
+    'time' => 
+    DateTime::__set_state(array(
+       'date' => '2013-05-17 10:15:00',
+       'timezone_type' => 3,
+       'timezone' => 'America/Chicago',
+    )),
+    'type' => 'talks',
+    'day' => 'Conference Day 3',
+  ),
+  1368808200 => 
+  array (
+    'talks' => 
+    array (
+      0 => 
       array (
         'speaker' => 'Michelangelo van Dam',
-        'title' => 'Community Works!',
-        'description' => 'Getting involved with the community behind PHP is not difficult, and everyone is welcome to participate to get involved. But what’s this “Getting involved” thing? In this session I’ll explain what people can do to become part of the larger PHP community eco system, without committing code to the PHP core or other PHP related open source projects.',
-      ),
-      2 => 
-      array (
-        'speaker' => 'Helgi Ãormar ÃorbjÃ¶rnsson',
-        'title' => 'Cranking Nginx Up to 11',
-        'description' => 'You may see Nginx as the run of the mill web server, geared towards serving up static files and your language of choice but there is so much more to Nginx than that. Under the hood is a treasure trove of additional features and configurations that can help you take things to the next level. This includes having Nginx talk directly to Memcached / Redis (perfect for APIs, without hitting your application), proxy functionality, GeoIP, Lua in the config, MogileFS file serving, improved headers manipulation, and the less useful yet cool ability to query Drizzle / Postgres directly.  This is only the tip of the iceberg. I will take you one a journey to explore the hidden corners of Nginx and show you how to crank it up to 11!',
-      ),
-    ),
-    'day' => 'Day 3',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-25 09:00:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'talks',
-  ),
-  1337958900 => 
-  array (
-    'talks' => 
-    array (
-      0 => 
-      array (
-        'speaker' => 'Joshua Thijssen',
-        'title' => 'Alice & Bob, Public Key Cryptography 101',
-        'description' => 'HTTPS, SSL, SSH, PGP are terms most people know that they are somehow related to encryption. But how does it work? During this talk you will find out why even the most complex encryption algorithms used today are based on very simple concepts. We will dive into the basics of public key encryption, how it works and together with some (simple) examples, give you some insight on encryption in general.  And who the heck are Alice and Bob anyway?',
+        'title' => 'UA Testing with Selenium and PHPUnit',
+        'description' => 'Nothing is as frustrated as deploying a new release of your web application to find out functionality you had doesn\'t work anymore. Of course you have all your unit tests in place and you run them through your CI environment, but nothing prepared you to a failing javascript error or a link that doesn\'t work anymore.  Welcome to User Acceptance testing or UAT. Before you start putting real people in front of your application, create macros and export them as PHPUnit test classes. Then run them in an automated way just like your unit tests and hook them into your CI.  In this talk I will show you how easy it is to create Selenium macros that can be converted into PHPUnit scripts and run automatically on different virtual machines (VM\'s) so you can test all different browsers on a diversity of operating systems.',
       ),
       1 => 
       array (
-        'speaker' => 'Ian Barber',
-        'title' => 'Clojure for PHP Developers',
-        'description' => 'Learning Clojure will both bring an entirely new perspective to the way you approach programming, and also allow quick and easy development of services using existing Java libraries and systems. Clojure is an exciting new functional language, based on LISP, with excellent support for multicore concurrency. Clojure is run on top of the Java Virtual Machine, which makes Clojure a great glue language – increasingly important when so many architectures use PHP as the web tier of a Java based service library. In this talk we will introduce the syntax and style of Clojure, look at how to use the REPL to quickly iterate programs, how to unit test Clojure code, and how to build RESTful services for communicating with PHP.',
+        'speaker' => 'Vid Luther',
+        'title' => 'A Tale of Scaling with the Cloud, till the Cloud Couldn\'t Scale.',
+        'description' => 'ZippyKid started out as a one man show, that is now a 10 man show, by the time this talk happens, hopefully, it\'ll be a 15 man show.  I\'d like to talk about how things started, with a simple cloud server, and how it grew from 1 site serving 100 pageviews/month, to now a system that serves 10,000 pageviews/minute.   I\'d like to talk about when the "cloud services" like AWS/Rackspace are good, and when you may need to move away from them. The stark performance difference between dedicated hardware, and cloud servers, and how to think about the trade offs.   If there is interest, I\'d also like to discuss the business aspect of things, and how you scale yourself, from a one man freelancer, to a proper company.',
       ),
       2 => 
       array (
-        'speaker' => 'Ligaya Turmelle',
-        'title' => 'Replication with MySQL',
-        'description' => 'Come with me as we learn all we need to know about replication. MySQL Replication is one of the “standard” tools used for a web sites high availability and scaling needs.  We will discuss how replication works, the difference between the various types of  replication (RBR, SBR, Mixed Mode), how to set it up and more.',
+        'speaker' => 'Jeremy Mikola',
+        'title' => 'Being a Good OSS Contributor',
+        'description' => 'There is no barrier or lack of opportunity to contribute to open-source projects, but how can we do so effectively and responsibly? In this session, we\'ll consider the side of both would-be contributors and project maintainers, and discuss good practices applicable to the smallest of bug reports to the largest of pull requests.',
       ),
     ),
-    'day' => 'Day 3',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-25 10:15:00',
+       'date' => '2013-05-17 11:30:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
     'type' => 'talks',
+    'day' => 'Conference Day 3',
   ),
-  1337963400 => 
+  1368812700 => 
   array (
-    'talks' => 
-    array (
-      0 => 
-      array (
-        'speaker' => 'Kevin Bruce',
-        'title' => 'Creating an HTML5 Site that Doesn’t Suck',
-        'description' => 'Ok- so HTML5 is here and it does some really cool stuff! Being the latest “new shiny”, your company to show off how bleeding edge they are by having a spinning 3d header bow, 53 web fonts, video boxes, galleries, etcÃâ STOP! Remember when Flash first came out? Every site had an opening Flash page. A term was created for that- Flashturbation. It’s when something was created for the sole purpose of looking cool- forget the fact that people were leaving the site because all they wanted was to get directions or find a product but got tired of the loading screen for a animated fly-by of the company’s logo.  Kevin Bruce will demonstrate how to keep usability and practicality in mind while looking bleeding edge technologies minimally, but effectively.',
-      ),
-      1 => 
-      array (
-        'speaker' => 'Mike Ho',
-        'title' => 'Native Mobile App Development for PHP Developers',
-        'description' => 'With smartphone and tablet devices inundating the marketplace, nothing recently has had more impact on consumer software than both the Android Market and the iTunes App Store.  They are clearly markets that have huge potential for PHP developers.  As more and more PHP and web development teams are venturing into the mobile landscape, we will discuss the many key issues that developers will need to wrestle with, including: * HTML5 vs. Native vs. Hybrid Apps, and the pros and cons of each approach * Looking at Android vs. iOS vs. Windows Mobile vs. etc., while not being religious about it * Taking advantage of existing skillsets in PHP and server-side technology to increase the value of mobile development * Practical and specific advice on structuring development teams and development environments * Avoiding the gotchas in native mobile app development that many PHP developers encounter  For those that are either considering or have already started on mobile projects, this should provide a lot of material to think about and ponder as you begin to figure out your mobile strategy and approach.',
-      ),
-      2 => 
-      array (
-        'speaker' => 'Garrison Locke',
-        'title' => 'Object-oriented JavaScript – Techniques for Managing Your Unwieldy JavaScript',
-        'description' => 'Few people only write PHP these days.  Those of us who write web applications always end up adding some Javascript here or there to fancy up things…usually with jQuery or your favorite Javascript toolkit.  But what do you do when you find you need more than just the simple stuff?  Your frontend is getting complex and you some structure to manage your data and your interface.  What do you do with that file full of unorganized spaghetti functions and global variables?  I wondered the same thing…then I learned how to make my Javascript more object oriented.  It’s a tricky subject because there’s a number of ways to do it, but I’ll show you some simple techniques for keeping your Javascript code more organized, easier to understand, and more modular!',
-      ),
-    ),
-    'day' => 'Day 3',
+    'title' => 'Closing Remarks',
     'time' => 
     DateTime::__set_state(array(
-       'date' => '2012-05-25 11:30:00',
+       'date' => '2013-05-17 12:45:00',
        'timezone_type' => 3,
        'timezone' => 'America/Chicago',
     )),
-    'type' => 'talks',
-  ),
-  1337967900 => 
-  array (
-    'keynote' => 'Closing RemarksMarco Tabini',
-    'day' => 'Day 3',
-    'time' => 
-    DateTime::__set_state(array(
-       'date' => '2012-05-25 12:45:00',
-       'timezone_type' => 3,
-       'timezone' => 'America/Chicago',
-    )),
-    'type' => 'keynote',
+    'type' => 'common',
+    'day' => 'Conference Day 3',
   ),
 );

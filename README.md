@@ -1,8 +1,10 @@
 # php|tek Schedule Autoresponder
-Here’s how I built a simple [Nexmo](http://nexmo.com) powered application that queries the php|tek schedule. If you’re at tek and want to know more, just find me (mention [@tjlytle](https://twitter.com/#!/tjlytle) on twitter). And make sure you get your Nexmo badge as well.
+Here’s how I built a simple [Nexmo](http://nexmo.com) powered application that queries the php|tek schedule. If you’re at tek and want to know more, just find me (mention [@tjlytle](https://twitter.com/#!/tjlytle) on twitter). And make sure you get your Nexmo lego as well.
 
 ### Examples 
 *(because who wants to read a whole readme)*
+
+Send to: 1-803-760-7404
 
 * Send ‘now’ to get what’s going on currently at php|tek.
 * Send ‘tomorrow 11am’, and get a list of talks.
